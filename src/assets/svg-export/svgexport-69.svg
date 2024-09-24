@@ -1,0 +1,6 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" role="none" aria-hidden="true" class="artdeco-button__icon " xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16" data-test-icon="minimize-small"><defs><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" id="minimize-small" aria-hidden="true" role="none" data-supported-dps="16x16" fill="#000000" fill-opacity="0.9">
+  <path d="M5 1h2v6H1V5h2.59L0 1.41 1.41 0 5 3.59zm7.41 10H15V9H9v6h2v-2.59L14.59 16 16 14.59z" fill-opacity="0.9"></path>
+</svg></defs>
+<!---->    
+    <use href="#minimize-small" width="16" height="16" stroke-opacity="0" stroke="#000000" fill-opacity="0" fill="#000000"></use>
+</svg>

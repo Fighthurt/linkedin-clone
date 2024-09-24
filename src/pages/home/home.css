@@ -1,0 +1,336 @@
+.home-page-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-page-cards .home-page-col-one{
+    width: 20%;
+    padding-bottom: 30px;
+    overflow: hidden;
+    height: fit-content;
+    /* padding: 0 10px 10px 10px; */
+}
+
+.home-page-cards .home-page-col-two{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+
+.home-page-cards .home-page-col-three{
+    width: 30%;
+}
+
+.home-page-col-one{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.col-card-one-img1 img{
+    width: 100%;
+    height: 70px;
+    background-position: top;
+    position: relative;
+}
+
+.col-card-one-img2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-card-one-img2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+}
+
+.juicewrld-home-page-name{
+    margin-top: 50px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.juicewrld-home-page-about{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.whoViewedCOl-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 3px 10px;
+}
+
+.whoViewedCOl-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px 0px 10px;
+}
+
+.whoViewedCOl-one span:first-child{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.whoViewedCOl-one span:last-child{
+    color: #0a66c2;
+    font-size: 12px;
+    font-weight: 500; 
+
+}
+
+.whoViewedCOl-two span:first-child{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.whoViewedCOl-two span:last-child{
+    color: #0a66c2;
+    font-size: 12px;
+    font-weight: 500; 
+}
+
+
+.exclusive-content-home{
+  padding: 3px 10px 0px 10px;  
+}
+
+.exclusive-content-home p:first-child{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.exclusive-content-home p:last-child{
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    
+}
+
+.second-col-search-section-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding: 15px 12px 10px 12px;
+}
+
+.second-col-search-section-home img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.second-col-search-section-home input{
+    width: 85%;
+    height: 45px;
+    border-radius: 18px;
+    border: none;
+    padding-left: 10px;
+    border: 1px solid rgba(133, 133, 133, 0.792);
+
+   
+}
+
+.page-home-uploads-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-home-uploads-section ul{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-bottom: 15px;
+    margin-top: 6px;
+}
+
+.page-home-uploads-section ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 15 px;
+    
+
+}
+
+.page-home-uploads-section ul li span{ 
+    margin-right: 14px;
+    
+
+}
+
+.postContainer{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.285);
+}
+
+.whoViewedPost{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 0px 15px;
+}
+
+.whoViewedPostName{
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+.whoViewedPostName span{
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.whoViewedPost-dots{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.userPostDetailsImg img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.userPostDetails{
+    padding: 4px 15px 2px 15px;
+}
+
+.userPostDetails{
+    display: flex;
+}
+
+.userPostMainDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.userDetailsNamepost{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.userDetails-About{
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.mainFeedPost p{
+    padding: 3px 15px 2px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.mainFeedPost img{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.postAction {
+    padding: 10px 10px 18px 10px;
+}
+
+.postAction ul{
+    list-style-type: none;
+    display: flex;  
+}
+
+.postAction ul li{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.postAction ul li svg{
+    padding-right: 5px; 
+}
+
+.topCoursesCol3{
+    padding: 15px 13px 10px 13px;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.topCHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topCHeader p{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.coursesList{
+    margin-top: 12px;
+}
+
+.coursesListMain{
+    display: flex;
+    margin-bottom: 17px;
+
+}
+
+.coursesListCol1{
+    margin-right: 5px;
+}
+
+.coursesListCol2{
+    display: flex;
+    flex-direction: column;
+}
+
+.coursesListCol2 span:first-child{
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+     
+}
+
+.coursesListCol2 span:last-child{
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    padding-top: 5px;
+}
